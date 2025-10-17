@@ -1,0 +1,22 @@
+site_name: mathsforall
+site_url: https://jimmyzhan.github.io/math-portfolio
+
+theme:
+  name: material 
+
+markdown_extensions:
+  - pymdownx.arithmatex
+  - pymdownx.superfences
+  - toc:
+      permalink: true
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+nav:
+  - Homes: index.md 
+  - Notes:
+      - Determining the oblique asymptote solely on the graph: notes/Existence_of_OA_discussion.md 
+      - Discovery of power-exponential functions: notes/The_function_with_no_graph.md 
+
+
