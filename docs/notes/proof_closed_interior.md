@@ -1,0 +1,9 @@
+# Proof of definition of closed set in metric space
+
+Open and closed sets; interior, exterior and boundary points; ... These are basic yet essential concepts in algebraic topology, which shaped and defined the spaces. For the conscientiousness of mathematics, this document, as part of a series, explores the definitions, and see how these definitions work together to produce theorems.
+
+The proof for the theorem
+
+A set $D$ in $\mathbb{R}^2$ or $\mathbb{R}^3$ is closed if and only if its complement is an open set.
+
+is provided: [Download the document(PDF)](../assets/proof_closed_interior.pdf)
