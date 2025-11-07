@@ -20,6 +20,10 @@ Welcome to mathsforall ~ This is a open-sourced website that aims to share the m
 
 - [Proof of definition of closed set in metric space](notes/proof_closed_interior.md)
 
+## Proofs of The Basel Problem
+
+- [Proof by Leonhard Euler](notes/basel_problem_euler.md)
+
 ## Project
 
 - [Modification of existing numerical optimization methods in the application of logistic regression](projects/Optimization.md)
