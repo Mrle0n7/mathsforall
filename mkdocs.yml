@@ -12,6 +12,7 @@ theme:
     - content.code.copy
     - content.tabs.link
     - content.tooltips
+    - content.cards
 
 markdown_extensions:
   - admonition
@@ -25,7 +26,13 @@ extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
-extra_css: []
+extra_css:
+  - styles/extra.css
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      fallback_to_buld_date: true
 
 nav:
   - Home: index.md 
