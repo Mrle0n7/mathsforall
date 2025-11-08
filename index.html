@@ -233,19 +233,6 @@
         
       
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Home
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
       <a href="." class="md-nav__link md-nav__link--active">
         
   
@@ -257,34 +244,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#latest-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Latest Updates
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
       
     </li>
   
@@ -798,23 +757,6 @@
     
   
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#latest-updates" class="md-nav__link">
-    <span class="md-ellipsis">
-      Latest Updates
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
 </nav>
                   </div>
                 </div>
@@ -832,80 +774,72 @@
 <h1 id="mathsforall">Mathsforall<a class="headerlink" href="#mathsforall" title="Permanent link">&para;</a></h1>
 <p>Welcome to mathsforall ~ This is a open-sourced website that aims to share the most random ideas I came up with in mathematics!</p>
 <hr />
-<h2 id="latest-updates">Latest Updates<a class="headerlink" href="#latest-updates" title="Permanent link">&para;</a></h2>
-<p>This list updates automatically based on the last Git commit.</p>
-<div class="annotate">
-
-{% for page in pages | sort(attribute='meta.git_revision_date_localized', reverse=true) | slice(5) %}
-- [{{ page.title }}]({{ page.url | url }})
-{% endfor %}
-
-</div>
-
-<hr />
 <h1 id="explore-the-notes"><span id="explore"></span> Explore the Notes<a class="headerlink" href="#explore-the-notes" title="Permanent link">&para;</a></h1>
 <h2 id="elementary-analysis">Elementary Analysis<a class="headerlink" href="#elementary-analysis" title="Permanent link">&para;</a></h2>
-<div class="grid cards" markdown>
-
-- :material-function: **Oblique Asymptotes**  
-  Determining the existence of oblique asymptotes from graphs alone.  
-  [:octicons-arrow-right-16: Read](notes/Existence_of_OA_discussion.md)
-
-- :material-graph-line: **Power–Exponential Functions**  
-  Exploring functions beyond polynomial–exponential behaviour.  
-  [:octicons-arrow-right-16: Open](notes/The_function_with_no_graph.md)
-
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 3v4.59L7.59 15H3v6h6v-4.58L16.42 9H21V3m-4 2h2v2h-2M5 17h2v2H5"/></svg></span> <strong>Oblique Asymptotes</strong><br />
+  Determining the existence of oblique asymptotes from graphs alone.<br />
+<a href="notes/Existence_of_OA_discussion/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06"/></svg></span> Read</a></p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15.6 5.29c-1.1-.1-2.07.71-2.17 1.82L13.18 10H16v2h-3l-.44 5.07a3.986 3.986 0 0 1-4.33 3.63 4 4 0 0 1-3.06-1.87l1.5-1.5c.24.74.9 1.31 1.73 1.38 1.1.1 2.07-.71 2.17-1.82L11 12H8v-2h3.17l.27-3.07c.19-2.2 2.13-3.83 4.33-3.63 1.31.11 2.41.84 3.06 1.87l-1.5 1.5c-.24-.74-.9-1.31-1.73-1.38"/></svg></span> <strong>Power–Exponential Functions</strong><br />
+  Exploring functions beyond polynomial–exponential behaviour.<br />
+<a href="notes/The_function_with_no_graph/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06"/></svg></span> Open</a></p>
+</li>
+</ul>
 </div>
-
 <hr />
 <h2 id="multivariable-differential-calculus">Multivariable Differential Calculus<a class="headerlink" href="#multivariable-differential-calculus" title="Permanent link">&para;</a></h2>
-<div class="grid cards" markdown>
-
-- :material-vector-combine: **The Nature of Dot Product**  
-  Understanding projection, geometry, and interpretation of dot products.  
-  [:octicons-arrow-right-16: Read](notes/Why_Dot_Product.md)
-
-- :material-compare: **Curvature Under a Time Parameter**  
-  A complete proof of the universal curvature formula.  
-  [:octicons-arrow-right-16: View Proof](notes/Curvature_time_parametrization_proof.md)
-
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 1c-1.11 0-2 .89-2 2v11c0 1.11.89 2 2 2h4v4c0 1.11.89 2 2 2h11c1.11 0 2-.89 2-2V9c0-1.11-.89-2-2-2h-4V3c0-1.11-.89-2-2-2zm0 2h11v4H9c-1.11 0-2 .89-2 2v5H3zm6 6h5v5H9zm7 0h4v11H9v-4h5c1.11 0 2-.89 2-2z"/></svg></span> <strong>The Nature of Dot Product</strong><br />
+  Understanding projection, geometry, and interpretation of dot products.<br />
+<a href="notes/Why_Dot_Product/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06"/></svg></span> Read</a></p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 3h-5v2h5v13l-5-6v9h5a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2m-9 15H5l5-6m0-9H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h5v2h2V1h-2z"/></svg></span> <strong>Curvature Under a Time Parameter</strong><br />
+  A complete proof of the universal curvature formula.<br />
+<a href="notes/Curvature_time_parametrization_proof/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06"/></svg></span> View Proof</a></p>
+</li>
+</ul>
 </div>
-
 <hr />
 <h2 id="algebraic-topology">Algebraic Topology<a class="headerlink" href="#algebraic-topology" title="Permanent link">&para;</a></h2>
-<div class="grid cards" markdown>
-
-- :material-shape-plus: **Open Sets in Metric Spaces**  
-  Proof using open balls and neighbourhood structures.  
-  [:octicons-arrow-right-16: Read](notes/proof_open_interior.md)
-
-- :material-shape-outline: **Closed Sets in Metric Spaces**  
-  Proof via complementarity and limit points.  
-  [:octicons-arrow-right-16: Read](notes/proof_closed_interior.md)
-
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M2 2h9v9H2zm15.5 0C20 2 22 4 22 6.5S20 11 17.5 11 13 9 13 6.5 15 2 17.5 2m-11 12 4.5 8H2zM19 17h3v2h-3v3h-2v-3h-3v-2h3v-3h2z"/></svg></span> <strong>Open Sets in Metric Spaces</strong><br />
+  Proof using open balls and neighbourhood structures.<br />
+<a href="notes/proof_open_interior/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06"/></svg></span> Read</a></p>
+</li>
+<li>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M11 13.5v8H3v-8zm-2 2H5v4h4zM12 2l5.5 9h-11zm0 3.86L10.08 9h3.84zM17.5 13c2.5 0 4.5 2 4.5 4.5S20 22 17.5 22 13 20 13 17.5s2-4.5 4.5-4.5m0 2a2.5 2.5 0 0 0-2.5 2.5 2.5 2.5 0 0 0 2.5 2.5 2.5 2.5 0 0 0 2.5-2.5 2.5 2.5 0 0 0-2.5-2.5"/></svg></span> <strong>Closed Sets in Metric Spaces</strong><br />
+  Proof via complementarity and limit points.<br />
+<a href="notes/proof_closed_interior/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06"/></svg></span> Read</a></p>
+</li>
+</ul>
 </div>
-
 <hr />
 <h2 id="proofs-of-the-basel-problem">Proofs of the Basel Problem<a class="headerlink" href="#proofs-of-the-basel-problem" title="Permanent link">&para;</a></h2>
-<div class="grid cards" markdown>
-
-- :material-sigma: **Euler’s Proof**  
-  The classical analytic derivation of  
-  \(\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}\).  
-  [:octicons-arrow-right-16: View Proof](notes/basel_problem_euler.md)
-
+<div class="grid cards">
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 6H8.83l6 6-6 6H18v2H6v-2l6-6-6-6V4h12z"/></svg></span> <strong>Euler’s Proof</strong><br />
+  The classical analytic derivation of <span class="arithmatex">\(\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}\)</span>.<br />
+<a href="notes/basel_problem_euler/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06"/></svg></span> View Proof</a></li>
+</ul>
 </div>
-
 <hr />
 <h2 id="project">Project<a class="headerlink" href="#project" title="Permanent link">&para;</a></h2>
-<div class="grid cards" markdown>
-
-- :material-flask: **Optimization in Logistic Regression**  
-  Modifying numerical optimization methods for better convergence.  
-  [:octicons-arrow-right-16: Read Project](projects/Optimization.md)
-
+<div class="grid cards">
+<ul>
+<li><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M1 3a2 2 0 0 1 2-2h6.5a2 2 0 0 1 2 2v6.5a2 2 0 0 1-2 2H7v4.063C7 16.355 7.644 17 8.438 17H12.5v-2.5a2 2 0 0 1 2-2H21a2 2 0 0 1 2 2V21a2 2 0 0 1-2 2h-6.5a2 2 0 0 1-2-2v-2.5H8.437A2.94 2.94 0 0 1 5.5 15.562V11.5H3a2 2 0 0 1-2-2Zm2-.5a.5.5 0 0 0-.5.5v6.5a.5.5 0 0 0 .5.5h6.5a.5.5 0 0 0 .5-.5V3a.5.5 0 0 0-.5-.5ZM14.5 14a.5.5 0 0 0-.5.5V21a.5.5 0 0 0 .5.5H21a.5.5 0 0 0 .5-.5v-6.5a.5.5 0 0 0-.5-.5Z"/></svg></span> <strong>Optimization in Logistic Regression</strong><br />
+  Modifying numerical optimization methods for better convergence.<br />
+<a href="projects/Optimization/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M8.22 2.97a.75.75 0 0 1 1.06 0l4.25 4.25a.75.75 0 0 1 0 1.06l-4.25 4.25a.75.75 0 0 1-1.042-.018.75.75 0 0 1-.018-1.042l2.97-2.97H3.75a.75.75 0 0 1 0-1.5h7.44L8.22 4.03a.75.75 0 0 1 0-1.06"/></svg></span> Read Project</a></li>
+</ul>
 </div>
-
 <hr />
 <h1 id="about">About<a class="headerlink" href="#about" title="Permanent link">&para;</a></h1>
 <p>Mathsforall is a garage for my investigations within the field of mathematics (perhaps will explore more in other fields!). The documents are free for all, which means that anyone can use any information available in this website without any consent! I aim to write in a clear and precise manner, that means it might not be rigorous at all times, but I hope everyone finds it easy to understand. If you wish to receive the .tex files please contact me! If you seek any clarification in any of the documents please contact me! If you're just bored and have nobody to talk to please contact me!</p>
@@ -1013,7 +947,7 @@
     
     
       
-      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant", "navigation.sections", "navigation.expand", "navigation.top", "header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "content.cards"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"base": ".", "features": ["navigation.sections", "navigation.expand", "navigation.top", "header.autohide", "content.code.copy", "content.tabs.link", "content.tooltips", "content.cards"], "search": "assets/javascripts/workers/search.973d3a69.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.f55a23d4.min.js"></script>
