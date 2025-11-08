@@ -18,13 +18,6 @@ This list updates automatically based on the last Git commit.
 
 ---
 
-<div class="hero">
-  <h1>Maths For All</h1>
-  <p>A growing collection of mathematical notes, proofs, and explorations.</p>
-  <a class="button" href="#explore">Explore Notes</a>
-  <a class="button" href="#" onclick="randomDoc()">Random Article</a>
-</div>
-
 # <span id="explore"></span> Explore the Notes
 
 ## Elementary Analysis

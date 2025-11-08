@@ -13,6 +13,16 @@ theme:
     - content.tabs.link
     - content.tooltips
     - content.cards
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+
 
 markdown_extensions:
   - admonition
@@ -21,6 +31,13 @@ markdown_extensions:
   - pymdownx.superfences
   - toc:
       permalink: true
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://mrle0n7.github.io/mathsforall/
+    - icon: fontawesome/solid/envelope
+      link: mailto:jimmy.zhy7@gmail.com
 
 extra_javascript:
   - https://polyfill.io/v3/polyfill.min.js?features=es6
