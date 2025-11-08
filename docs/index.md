@@ -2,7 +2,30 @@
 
 Welcome to mathsforall ~ This is a open-sourced website that aims to share the most random ideas I came up with in mathematics!
 
-# Explore the Notes
+---
+
+## Latest Updates
+
+This list updates automatically based on the last Git commit.
+
+<div class="annotate">
+
+{% for page in pages | sort(attribute='meta.git_revision_date_localized', reverse=true) | slice(5) %}
+- [{{ page.title }}]({{ page.url | url }})
+{% endfor %}
+
+</div>
+
+---
+
+<div class="hero">
+  <h1>Maths For All</h1>
+  <p>A growing collection of mathematical notes, proofs, and explorations.</p>
+  <a class="button" href="#explore">Explore Notes</a>
+  <a class="button" href="#" onclick="randomDoc()">Random Article</a>
+</div>
+
+# <span id="explore"></span> Explore the Notes
 
 ## Elementary Analysis
 
@@ -75,13 +98,15 @@ Welcome to mathsforall ~ This is a open-sourced website that aims to share the m
 
 </div>
 
-# About
-Mathsforall is a garage for my investigations within the field of mathematics (perhaps will explore more in other fields!). The documents are free for all, which means that anyone can use any information available in this website without any consent! I aim to write in a clear and precise manner, that means it might not be rigorous at all times, but I hope everyone finds it easy to understand. If you wish to receive the .tex files please contact me! If you seek any clarification in any of the documents please contact me! If you're just bored and have nobody to talk to please contact me!
+---
 
+# About
+
+Mathsforall is a garage for my investigations within the field of mathematics (perhaps will explore more in other fields!). The documents are free for all, which means that anyone can use any information available in this website without any consent! I aim to write in a clear and precise manner, that means it might not be rigorous at all times, but I hope everyone finds it easy to understand. If you wish to receive the .tex files please contact me! If you seek any clarification in any of the documents please contact me! If you're just bored and have nobody to talk to please contact me!
 
 # Contact
 
 Email: jimmy.zhy7@gmail.com
 
 
-![Total visits](https://visitor-badge.laobi.icu/badge?page_id=Mrle0n7.mathsforall)
+![Total Visits](https://visitor-badge.laobi.icu/badge?page_id=Mrle0n7.mathsforall)

@@ -1,0 +1,49 @@
+/* --- Math-style serif fonts --- */
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400;600&display=swap');
+
+.md-typeset {
+  font-family: "STIX Two Text", serif;
+}
+
+/* Headings use a bold mathematical serif */
+.md-typeset h1, .md-typeset h2, .md-typeset h3 {
+  font-family: "STIX Two Text", serif;
+  font-weight: 600;
+}
+
+/* --- Hero Banner --- */
+.hero {
+  padding: 4rem 2rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  background: linear-gradient(135deg, #23395d, #1e2a47);
+  color: white;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  font-size: 1.3rem;
+  opacity: 0.85;
+}
+
+/* Hero buttons */
+.hero .button {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.4rem;
+  font-size: 1.05rem;
+  background: white;
+  color: #1e2a47;
+  border-radius: 0.6rem;
+  text-decoration: none;
+  font-weight: 600;
+}
+.hero .button:hover {
+  opacity: 0.85;
+}
+
