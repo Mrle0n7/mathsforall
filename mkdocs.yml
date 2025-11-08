@@ -21,13 +21,17 @@ extra_css: []
 nav:
   - Home: index.md 
   - Notes:
-      - Determining the oblique asymptote solely on the graph: notes/Existence_of_OA_discussion.md 
-      - Discovery of power-exponential functions: notes/The_function_with_no_graph.md
-      - The nature of dot product: notes/Why_Dot_Product.md
-      - Proof of universal equation of curvature with parameter t: notes/Curvature_time_parametrization_proof.md
-      - Proof of definition of open sets in metric space: notes/proof_open_interior.md
-      - Proof of definition of closed sets in metric space: notes/proof_closed_interior.md
-      - Proof of Basel Problem by Leonhard Euler: notes/basel_problem_euler.md
+      - Functions:
+        - Determining the oblique asymptote solely on the graph: notes/Existence_of_OA_discussion.md 
+        - Discovery of power-exponential functions: notes/The_function_with_no_graph.md
+      - Multivariable Differential Calculus:
+        - The nature of dot product: notes/Why_Dot_Product.md
+        - Proof of universal equation of curvature with parameter t: notes/Curvature_time_parametrization_proof.md
+      - Algebraic Topology:
+        - Proof of definition of open sets in metric space: notes/proof_open_interior.md
+        - Proof of definition of closed sets in metric space: notes/proof_closed_interior.md
+      - Proof of The Basel Problem:
+        - Proof of Basel Problem by Leonhard Euler: notes/basel_problem_euler.md
   - Projects:
       - Modification of existing numerical optimization methods in the application of logistic regression: projects/Optimization.md
 

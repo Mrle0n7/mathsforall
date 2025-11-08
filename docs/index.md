@@ -2,6 +2,8 @@
 
 Welcome to mathsforall ~ This is a open-sourced website that aims to share the most random ideas I came up with in mathematics!
 
+# Content
+
 ## Functions
 
 - [Determining the oblique asymptote solely on the graph](notes/Existence_of_OA_discussion.md)
