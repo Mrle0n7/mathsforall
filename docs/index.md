@@ -4,33 +4,75 @@ Welcome to mathsforall ~ This is a open-sourced website that aims to share the m
 
 # Explore the Notes
 
+## Elementary Analysis
+
 <div class="grid cards" markdown>
 
-- :material-function: **Elementary Analysis**
-  Explorations on function behaviours, asymptotes, and unusual function structures.
-  [:octicons-arrow-right-16: Browse](notes/Exsistence_of_OA_discussion.md)
+- :material-function: **Oblique Asymptotes**  
+  Determining the existence of oblique asymptotes from graphs alone.  
+  [:octicons-arrow-right-16: Read](notes/Existence_of_OA_discussion.md)
 
-- [Discovery of power-exponential functions](notes/The_function_with_no_graph.md)
+- :material-graph-line: **Power–Exponential Functions**  
+  Exploring functions beyond polynomial–exponential behaviour.  
+  [:octicons-arrow-right-16: Open](notes/The_function_with_no_graph.md)
+
+</div>
+
+---
 
 ## Multivariable Differential Calculus
 
-- [The nature of dot product](notes/Why_Dot_Product.md)
+<div class="grid cards" markdown>
 
-- [Proof of universal equation of curvature with parameter t](notes/Curvature_time_parametrization_proof.md)
+- :material-vector-combine: **The Nature of Dot Product**  
+  Understanding projection, geometry, and interpretation of dot products.  
+  [:octicons-arrow-right-16: Read](notes/Why_Dot_Product.md)
+
+- :material-compare: **Curvature Under a Time Parameter**  
+  A complete proof of the universal curvature formula.  
+  [:octicons-arrow-right-16: View Proof](notes/Curvature_time_parametrization_proof.md)
+
+</div>
+
+---
 
 ## Algebraic Topology
 
-- [Proof of definition of open set in metric space](notes/proof_open_interior.md)
+<div class="grid cards" markdown>
 
-- [Proof of definition of closed set in metric space](notes/proof_closed_interior.md)
+- :material-shape-plus: **Open Sets in Metric Spaces**  
+  Proof using open balls and neighbourhood structures.  
+  [:octicons-arrow-right-16: Read](notes/proof_open_interior.md)
 
-## Proofs of The Basel Problem
+- :material-shape-outline: **Closed Sets in Metric Spaces**  
+  Proof via complementarity and limit points.  
+  [:octicons-arrow-right-16: Read](notes/proof_closed_interior.md)
 
-- [Proof by Leonhard Euler](notes/basel_problem_euler.md)
+</div>
+
+---
+
+## Proofs of the Basel Problem
+
+<div class="grid cards" markdown>
+
+- :material-sigma: **Euler’s Proof**  
+  The classical analytic derivation of  
+  \(\sum_{n=1}^\infty \frac{1}{n^2} = \frac{\pi^2}{6}\).  
+  [:octicons-arrow-right-16: View Proof](notes/basel_problem_euler.md)
+
+</div>
+
+---
 
 ## Project
 
-- [Modification of existing numerical optimization methods in the application of logistic regression](projects/Optimization.md)
+<div class="grid cards" markdown>
+
+- :material-flask: **Optimization in Logistic Regression**  
+  Modifying numerical optimization methods for better convergence.  
+  [:octicons-arrow-right-16: Read Project](projects/Optimization.md)
+
 </div>
 
 # About
