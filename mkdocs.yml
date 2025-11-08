@@ -3,6 +3,15 @@ site_url: https://jimmyzhan.github.io/math-portfolio
 
 theme:
   name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.expand
+    - navigation.top
+    - header.autohide
+    - content.code.copy
+    - content.tabs.link
+    - content.tooltips
 
 markdown_extensions:
   - admonition
