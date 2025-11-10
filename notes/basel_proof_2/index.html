@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://jimmyzhan.github.io/math-portfolio/notes/Curvature_time_parametrization_proof/">
+        <link rel="canonical" href="https://jimmyzhan.github.io/math-portfolio/notes/basel_proof_2/">
       
       
-        <link rel="prev" href="../Why_Dot_Product/">
+        <link rel="prev" href="../basel_problem_euler/">
       
       
-        <link rel="next" href="../proof_open_interior/">
+        <link rel="next" href="../../projects/Optimization/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Proof of universal equation of curvature with parameter t - Mathsforall</title>
+        <title>Proof of Basel Problem by Jesus Retamozo - Mathsforall</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#proof-of-universal-equation-of-curvature-with-parameter-t" class="md-skip">
+        <a href="#proof-of-basel-problem-by-jesus-retamozo" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Proof of universal equation of curvature with parameter t
+              Proof of Basel Problem by Jesus Retamozo
             
           </span>
         </div>
@@ -386,8 +386,6 @@
                 
   
   
-    
-  
   
   
     
@@ -397,11 +395,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_2" >
         
           
           <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
@@ -417,7 +417,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_2">
             <span class="md-nav__icon md-icon"></span>
             Multivariable Differential Calculus
@@ -451,19 +451,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Curvature_time_parametrization_proof/" class="md-nav__link">
         
   
   
@@ -474,7 +465,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -661,10 +651,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../basel_proof_2/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -675,6 +674,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -796,12 +796,15 @@
 
 
 
-<h1 id="proof-of-universal-equation-of-curvature-with-parameter-t">Proof of universal equation of curvature with parameter t<a class="headerlink" href="#proof-of-universal-equation-of-curvature-with-parameter-t" title="Permanent link">&para;</a></h1>
-<p>The equation of curvature is given by</p>
+<h1 id="proof-of-basel-problem-by-jesus-retamozo">Proof of Basel Problem by Jesus Retamozo<a class="headerlink" href="#proof-of-basel-problem-by-jesus-retamozo" title="Permanent link">&para;</a></h1>
+<p>The Basel Problem was first introduced in 1644 by an Italian mathematician Pietro Mengoli. The problem remained open for 90 years, until Leonhard Euler gave his first proof in 1734.</p>
+<p>The Basel Problem has great significance as it is a special case of the Riemann zeta function <span class="arithmatex">\(\zeta(s)\)</span> when <span class="arithmatex">\(s = 2\)</span>. The Basel Problem examines <span class="arithmatex">\(\zeta(2)\)</span> to be equal to <span class="arithmatex">\(\frac{\pi^2}{6}\)</span>.</p>
+<p>The Basel Problem asks for the sum of the series:</p>
 <div class="arithmatex">\[
-\kappa (t = t_0) = \frac{\| T_1'(t_0) \|}{\| r_1'(t_0) \|}
+\sum_{n=1}^{\infty} \frac{1}{n^2} = 1 + \frac{1}{2^2} + \frac{1}{3^2} + \frac{1}{4^2} + ...
 \]</div>
-<p>The proof for this theorem is provided: <a href="../../assets/curvature_time_parametrization_proof.pdf">Download the document(PDF)</a></p>
+<p>The proof shown below was found on arxiv.org, doi 10.1007/978-3-0348-0692-3_74-1. This astonishingly simple and elegant nature of this proof is demonstrated. This approach, based exclusively on calculus, avoids advanced methods and constitutes the most elementary solution known, standing out for its clarity and simplicity.</p>
+<p>Still writing...</p>
 
 
 
@@ -822,7 +825,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 6, 2025 20:48:36 UTC">November 6, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="November 10, 2025 13:52:40 UTC">November 10, 2025</span>
   </span>
 
     
