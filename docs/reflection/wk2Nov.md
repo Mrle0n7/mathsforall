@@ -1,0 +1,17 @@
+# Weekly reflection Week 2 November
+
+The previous reflection was posted somewhat late, which gives me a strange feeling when writing this one, "Ah, how is it Monday again so soon?" Time feels folded. In the week after exams, the expected relief did not descend. Instead, there was anxiety. I should be happy having time to update my website after exams, right? I should be happy living in the new house after exams, right? I should feel fulfilled studying and exercising with friends, right? Then why is anxiety still here?
+
+For DP1s, exams and clubs, SLI, YSE are like gears turning constantly. DP2s, predicted grades and personal statements hang like swords overhead. Everyone around carries a similar restlessness. We share a certain symptom of our times, weightless in the dizziness of freedom.
+
+Existentialism tells us that anxiety is the shadow of freedom. Anxiety comes because I realise my choices shape who I am, and I cannot escape this responsibility. Hesitation, procrastination, irritability are all essentially just shrinking back from the interrogations: "Do I have other possibilities?", "What should I choose?", "Can I bear the consequences of this choice?" Anxiety reminds us we are free, so we must make choices.
+
+In the context of Stoicism, anxiety stems from attachment to the future and to our self-image. We create a "self we ought to be" in our minds: excellent, recognised, mistake-free, in control... Constantly comparing this with our real selves, the disparity leads to anxiety. That phantom of eternal composure and excellence is always a light-year away from the clumsy reality.
+
+The most startling thing is that I have actually conspired with my anxiety. The truth is, though hard to admit, we enjoy the feeling of anxiety. We enjoy wrapping ourselves in an ideal bubble, indulging in fantasies during sleepless nights, without having to take any real action. Hiding in the cocoon of idealism planning millions of lives is clearly easier than actually making a single stroke on the paper. Wallowing in the quagmire of self-doubt is essentially no different from arrogance.
+
+Go on, try to observe anxiety, label it. Go pop the ideal bubble. Yes, you will fall from the sky, you will land bruised and battered, but isn't life precisely the sense of reality in that moment of falling? Yes, I've been anxious this week. Anxious about Chemistry and Physics exams, anxious about next week's tests and presentation, anxious about Duke of Ed, anxious about the future. But I also accomplished a lot. I kept updating my website. I tried volleyball for the first time. I helped move and assemble furniture. I dared to express my confusion and discuss it with teachers. Most importantly, I realized I was anxious, and I can stop it. When the ideal, self-set scenarios are overturned, when the truest face of life is revealed before us, we are finally able to touch this solid, rough horizon beneath our feet. Hello there~ Here, there's no preset script, but an unfinished poem.
+
+Try gently labeling the anxiety when it surges: "Look, it's here again." Like observing the morning fog creeping over the window lattice, no longer rushing to dispel it. Only then do you discover that within the mist of anxiety lie the seeds of the future. It reminds me I'm still young, still eligible to make choices, still alive.
+
+Treat the unfinished as drafts, read uncertainty as possibility. In the new week, may we all pan for true gold in the river of anxiety.

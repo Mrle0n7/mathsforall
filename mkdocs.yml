@@ -4,7 +4,6 @@ site_url: https://jimmyzhan.github.io/math-portfolio
 theme:
   name: material
   features:
-    - navigation.instant
     - navigation.sections
     - navigation.expand
     - navigation.top
@@ -26,11 +25,18 @@ theme:
 
 markdown_extensions:
   - admonition
+  - pymdownx.details
+  - pymdownx.tabbed
   - pymdownx.arithmatex:
       generic: true
   - pymdownx.superfences
   - toc:
       permalink: true
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 extra:
   social:
@@ -47,6 +53,7 @@ extra_css:
   - styles/extra.css
 
 plugins:
+  - macros
   - search
   - git-revision-date-localized:
       fallback_to_buld_date: true
@@ -57,16 +64,29 @@ nav:
       - Functions:
         - Determining the oblique asymptote solely on the graph: notes/Existence_of_OA_discussion.md 
         - Discovery of power-exponential functions: notes/The_function_with_no_graph.md
-      - Multivariable Differential Calculus:
+      - Calculus:
         - The nature of dot product: notes/Why_Dot_Product.md
         - Proof of universal equation of curvature with parameter t: notes/Curvature_time_parametrization_proof.md
+        - Feynman Integral Trick: notes/feynman_integral_trick.md
+        - Wallis' Integral: notes/sine_integral.md 
       - Algebraic Topology:
         - Proof of definition of open sets in metric space: notes/proof_open_interior.md
         - Proof of definition of closed sets in metric space: notes/proof_closed_interior.md
       - Proof of The Basel Problem:
         - Proof of Basel Problem by Leonhard Euler: notes/basel_problem_euler.md
+        - Proof of Basel Problem by Jesus Retamozo: notes/basel_proof_2.md
+        - Proof of Basel Problem by Fourier series: notes/basel_proof_3.md
+        - Proof of Basel Problem by Trigonometric Inequality and De Moivre's Theorem: notes/basel_proof_4.md 
+
   - Projects:
       - Modification of existing numerical optimization methods in the application of logistic regression: projects/Optimization.md
+  - Weekly Reflections:
+      - Week 4 October 2025: reflection/wk4Oct.md
+      - Week 1 November 2025: reflection/wk1Nov.md
+      - Week 2 November 2025: reflection/wk2Nov.md
+      - Week 3 November 2025: reflection/wk3Nov.md
+  - Collection of Writings:
+      - Sonder: writing/sonder.md
 
 
 
