@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://jimmyzhan.github.io/math-portfolio/notes/The_function_with_no_graph/">
+        <link rel="canonical" href="https://jimmyzhan.github.io/math-portfolio/notes/proof_metric_hilbert_space/">
       
       
-        <link rel="prev" href="../Existence_of_OA_discussion/">
+        <link rel="prev" href="../basel_proof_4/">
       
       
-        <link rel="next" href="../Why_Dot_Product/">
+        <link rel="next" href="../../projects/Optimization/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>Discovery of power-exponential functions - Mathsforall</title>
+        <title>Prove that the Hilbert sequence space is a metric space - Mathsforall</title>
       
     
     
@@ -76,7 +76,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#discovery-of-power-exponential-functions" class="md-skip">
+        <a href="#proof-of-hilbert-sequence-space-l2-being-a-metric-space" class="md-skip">
           Skip to content
         </a>
       
@@ -112,7 +112,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Discovery of power-exponential functions
+              Prove that the Hilbert sequence space is a metric space
             
           </span>
         </div>
@@ -290,8 +290,6 @@
                 
   
   
-    
-  
   
   
     
@@ -301,11 +299,13 @@
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_1" checked>
+          
+        
+        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_1" >
         
           
           <label class="md-nav__link" for="__nav_2_1" id="__nav_2_1_label" tabindex="0">
@@ -321,7 +321,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_2_1">
             <span class="md-nav__icon md-icon"></span>
             Functions
@@ -355,19 +355,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../The_function_with_no_graph/" class="md-nav__link">
         
   
   
@@ -378,7 +369,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -776,6 +766,8 @@
                 
   
   
+    
+  
   
   
     
@@ -785,13 +777,11 @@
       
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-          
-        
-        <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" checked>
         
           
           <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
@@ -807,7 +797,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2_5">
             <span class="md-nav__icon md-icon"></span>
             Functional Analysis
@@ -818,10 +808,19 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../proof_metric_hilbert_space/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -832,6 +831,7 @@
   
 
       </a>
+      
     </li>
   
 
@@ -1180,10 +1180,10 @@
 
 
 
-<h1 id="discovery-of-power-exponential-functions">Discovery of power-exponential functions<a class="headerlink" href="#discovery-of-power-exponential-functions" title="Permanent link">&para;</a></h1>
-<p>The inspiration comes from a question I found online. When I first attempted to graph the function using some plotting tools, the same error occurred.</p>
-<p>Please find attached my current investigations: <a href="../../assets/The_function_with_no_graph.pdf">Download the document(PDF)</a></p>
-<p>Spoiler: Notice that the graph becomes quadratic when changing the 1 to 2, and cubic when 3. What might happen then?</p>
+<h1 id="proof-of-hilbert-sequence-space-l2-being-a-metric-space">Proof of Hilbert sequence space <span class="arithmatex">\(l^2\)</span> being a metric space<a class="headerlink" href="#proof-of-hilbert-sequence-space-l2-being-a-metric-space" title="Permanent link">&para;</a></h1>
+<p>Metric spaces, Hölder and Minkowski inequalities, and the foundational structure of Hilbert spaces. These are fundamental concepts in functional analysis that underpin modern mathematical analysis and quantum mechanics. For the love of mathematics and the love for David Hilbert, this document provides a stepwise proof demonstrating that the Hilbert sequence space satisfies all metric space axioms.</p>
+<p>The geometric interpretation of the auxiliary inequality using integration and area comparison can also be found in the document.</p>
+<p><a href="../../assets/proof_metric_hilbert_space.pdf">Download the document(PDF)</a></p>
 
 
 
@@ -1204,7 +1204,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="October 21, 2025 15:20:16 UTC">October 21, 2025</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 4, 2026 19:47:11 UTC">May 4, 2026</span>
   </span>
 
     
