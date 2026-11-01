@@ -2,6 +2,8 @@
 
 Numerical optimization methods are widely used in regression models in finding the coefficients, as it fits well with matrices and therefore can handle cases for large number of variables. In addition to that, the iterative nature of numerical optimization allows computations to weave in. However, there exists limitations for each and every single optimization method. In logistic regression, is there a way of coming up with a new method, that makes the iterative process more efficient?
 
+**Latest paper:** [Adaptive Preconditioned Stochastic Optimisation for Large-Scale Logistic Regression (PDF)](../assets/adaptive_preconditioned_stochastic_optimisation.pdf)
+
 Click to download the document explaining the background: [Download the document (PDF)](../assets/bg_250831.pdf)
 
 My attempts:
